@@ -17,13 +17,13 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out  ${
         scrolled
-          ? "bg-dark-900/90 backdrop-blur-md  py-5 border-b border-white/5"
-          : "bg-transparent py-8"
+          ? "bg-dark-900/90 backdrop-blur-md  py-7 border-b border-white/5"
+          : "bg-transparent py-10"
       }`}
     >
-      <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
+      <div className="container mx-auto px-7 md:px-12 flex justify-between items-center">
         <div className="hidden md:flex space-x-12">
           {NAV_LINKS.slice(0, 1).map((link) => (
             <NavLink
