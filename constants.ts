@@ -75,6 +75,8 @@ export const PROPERTIES: Property[] = [
   }
 ];
 
+
+
 export const TEAM: TeamMember[] = [
   {
     id: '1',
@@ -85,13 +87,13 @@ export const TEAM: TeamMember[] = [
   {
     id: '2',
     name: 'Nathan Seganti',
-    role: 'Minchione',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQafP03DMIlLsEDrXXAmmsOljkiADNjg1FbAQ&s'
+    role: 'Social Media Manager',
+    image: 'https://images.unsplash.com/photo-1542190891-2093d38760f2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: '3',
-    name: 'Julian Thorne',
-    role: 'Senior Broker',
+    name: 'Giacomo Grattarola',
+    role: 'Amministratore delegato',
     image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop'
   }
 ];

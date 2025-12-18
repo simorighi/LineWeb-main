@@ -20,8 +20,8 @@ const Home: React.FC = () => {
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
         <motion.div style={{ y: y1 }} className="absolute inset-0 z-0">
           <img 
-            /* src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000&auto=format&fit=crop"  */
-            src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2022/06/alessia-lanza-1-1654845060330.jpg"
+            src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000&auto=format&fit=crop"
+            /* src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2022/06/alessia-lanza-1-1654845060330.jpg" */
             alt="Luxury Interior" 
             className="w-full h-full object-cover"
           />
